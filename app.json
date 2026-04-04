@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "fraudApp2",
-    "slug": "fraudApp2",
+    "name": "UPI Payments Simulator",
+    "slug": "upi-payments-simulator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "fraudapp2",
+    "scheme": "upisimulator",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -14,9 +14,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "bundleIdentifier": "com.simulator.upi",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.simulator.upi",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -30,7 +32,9 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-secure-store",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
