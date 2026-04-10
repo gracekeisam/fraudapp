@@ -111,9 +111,9 @@ Transfer patterns
 🧠 Improve model accuracy with more data
 🔄 Live transaction monitoring
 👨‍💻 Contributors
-Kaushik
+Kaushik Jathar
 Pradhyumna Prabhu Desai
-Grace Keisam
+Grace Keisam 
 ⭐ Show Your Support
 
 If you found this project useful, give it a ⭐ on GitHub!
